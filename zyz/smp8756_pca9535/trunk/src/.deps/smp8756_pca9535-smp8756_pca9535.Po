@@ -1,0 +1,66 @@
+smp8756_pca9535-smp8756_pca9535.o: smp8756_pca9535.c \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../lib/gcc/arm-none-linux-gnueabi/4.6.3/include/stddef.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../lib/gcc/arm-none-linux-gnueabi/4.6.3/include/stdarg.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/unistd.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix_opt.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/environments.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/confname.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/getopt.h \
+ smp8756_pca9535.h smp8756_i2c.h
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../lib/gcc/arm-none-linux-gnueabi/4.6.3/include/stddef.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../lib/gcc/arm-none-linux-gnueabi/4.6.3/include/stdarg.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/unistd.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix_opt.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/environments.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/confname.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/getopt.h:
+
+smp8756_pca9535.h:
+
+smp8756_i2c.h:

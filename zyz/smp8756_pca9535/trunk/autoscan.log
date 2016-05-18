@@ -1,0 +1,6 @@
+autoscan: warning: missing AC_FUNC_MALLOC wanted by: 
+	src/rmmmimplementation.c:72
+	src/rmmmimplementation.c:188
+	src/rmmmimplementation.c:206
+autoscan: warning: missing AC_PROG_RANLIB wanted by: 
+	ltmain.sh:2455

@@ -1,0 +1,6 @@
+主机
+edk-build.sh -RWiug -P imx6 -T 192.168.5.183
+edk-build.sh
+
+板端
+tea -l

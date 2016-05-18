@@ -1,0 +1,13 @@
+# 2015年 04月 30日 星期四 17:32:16 CST
+# /home/zyz/myenv/bin/edk-build.sh -RWiug -P 8756
+
+
+run edk-build.sh in /home/zyz/work/smp8756_pca9535/build
+creating configure.ac
+create configure.ac done
+ /home/zyz/work/smp8756_pca9535/build/../trunk/configure --prefix=/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug --host=arm-none-linux-gnueabi  
+cd /home/zyz/work/smp8756_pca9535/build/../trunk
+/home/zyz/work/smp8756_pca9535/build/edk.log make
+done
+ make  install
+done

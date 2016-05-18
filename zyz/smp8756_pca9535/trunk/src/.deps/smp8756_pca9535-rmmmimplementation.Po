@@ -1,0 +1,175 @@
+smp8756_pca9535-rmmmimplementation.o: rmmmimplementation.c \
+ rmmmimplementation.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../lib/gcc/arm-none-linux-gnueabi/4.6.3/include/stddef.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../lib/gcc/arm-none-linux-gnueabi/4.6.3/include/stdarg.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h \
+ /home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmdef.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmem86xxid.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmplatform.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmarchid.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmcompilerid.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmgcc.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmbtypes.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmforbid.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmstatus.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmstatus.inc \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmpanic.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmmacros_c.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmmacros_gcc.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmmacros_arm.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmmacros_arm_cp15.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/arm_cp15_regs.inc \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmmacros_divisions.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmselfcheck.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmstreamid.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmdbg.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmmm.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmsync.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmpacketcommandops.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmnonasciitype.h \
+ /home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/osal/rmlibcw/include/rmcriticalsections.h
+
+rmmmimplementation.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../lib/gcc/arm-none-linux-gnueabi/4.6.3/include/stddef.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../lib/gcc/arm-none-linux-gnueabi/4.6.3/include/stdarg.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h:
+
+/home/zyz/smp8756/SDK613/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmdef.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmem86xxid.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmplatform.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmarchid.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmcompilerid.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmgcc.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmbtypes.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmforbid.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmstatus.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmstatus.inc:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmpanic.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmmacros_c.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmmacros_gcc.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmmacros_arm.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmmacros_arm_cp15.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/arm_cp15_regs.inc:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmmacros_divisions.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmselfcheck.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmstreamid.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmdbg.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmmm.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmsync.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmpacketcommandops.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/base/rmdef/rmnonasciitype.h:
+
+/home/backup/develop/arm-none-linux-gnueabi-4.6.3/debug/include/mrua/osal/rmlibcw/include/rmcriticalsections.h:

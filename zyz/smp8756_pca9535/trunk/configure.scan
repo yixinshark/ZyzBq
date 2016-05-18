@@ -1,0 +1,74 @@
+#                                               -*- Autoconf -*-
+# Process this file with autoconf to produce a configure script.
+
+AC_PREREQ([2.69])
+AC_INIT([FULL-PACKAGE-NAME], [VERSION], [BUG-REPORT-ADDRESS])
+AC_CONFIG_SRCDIR([config.h.in])
+AC_CONFIG_HEADERS([config.h])
+
+# Checks for programs.
+AC_PROG_CXX
+AC_PROG_AWK
+AC_PROG_CC
+AC_PROG_CPP
+AC_PROG_INSTALL
+AC_PROG_LN_S
+AC_PROG_MAKE_SET
+AC_PROG_RANLIB
+
+# Checks for libraries.
+# FIXME: Replace `main' with a function in `-ldcc_v2':
+AC_CHECK_LIB([dcc_v2], [main])
+# FIXME: Replace `main' with a function in `-ldl':
+AC_CHECK_LIB([dl], [main])
+# FIXME: Replace `main' with a function in `-lllad':
+AC_CHECK_LIB([llad], [main])
+# FIXME: Replace `main' with a function in `-lm':
+AC_CHECK_LIB([m], [main])
+# FIXME: Replace `main' with a function in `-lpthread':
+AC_CHECK_LIB([pthread], [main])
+# FIXME: Replace `main' with a function in `-lrmcec':
+AC_CHECK_LIB([rmcec], [main])
+# FIXME: Replace `main' with a function in `-lrmcore':
+AC_CHECK_LIB([rmcore], [main])
+# FIXME: Replace `main' with a function in `-lrmcw':
+AC_CHECK_LIB([rmcw], [main])
+# FIXME: Replace `main' with a function in `-lrmedid':
+AC_CHECK_LIB([rmedid], [main])
+# FIXME: Replace `main' with a function in `-lrmhdmi':
+AC_CHECK_LIB([rmhdmi], [main])
+# FIXME: Replace `main' with a function in `-lrmhsi':
+AC_CHECK_LIB([rmhsi], [main])
+# FIXME: Replace `main' with a function in `-lrmi2c':
+AC_CHECK_LIB([rmi2c], [main])
+# FIXME: Replace `main' with a function in `-lrminfoframe':
+AC_CHECK_LIB([rminfoframe], [main])
+# FIXME: Replace `main' with a function in `-lrmoutputdebugger':
+AC_CHECK_LIB([rmoutputdebugger], [main])
+# FIXME: Replace `main' with a function in `-lrmroute':
+AC_CHECK_LIB([rmroute], [main])
+# FIXME: Replace `main' with a function in `-lrmsha1':
+AC_CHECK_LIB([rmsha1], [main])
+# FIXME: Replace `main' with a function in `-lrmvideoout':
+AC_CHECK_LIB([rmvideoout], [main])
+# FIXME: Replace `main' with a function in `-lrua':
+AC_CHECK_LIB([rua], [main])
+# FIXME: Replace `main' with a function in `-lruai2c':
+AC_CHECK_LIB([ruai2c], [main])
+# FIXME: Replace `main' with a function in `-lruaoutput':
+AC_CHECK_LIB([ruaoutput], [main])
+
+# Checks for header files.
+AC_CHECK_HEADERS([stdlib.h string.h unistd.h])
+
+# Checks for typedefs, structures, and compiler characteristics.
+AC_C_INLINE
+
+# Checks for library functions.
+AC_FUNC_MALLOC
+AC_FUNC_REALLOC
+AC_CHECK_FUNCS([memset])
+
+AC_CONFIG_FILES([Makefile
+                 src/Makefile])
+AC_OUTPUT

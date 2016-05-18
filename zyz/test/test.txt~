@@ -1,0 +1,8 @@
+//结构体;teacher
+struct teacher
+{
+    int age;
+    float weight;
+    float height;
+    char sex;
+};

@@ -1,0 +1,15 @@
+//结构体;teacher
+struct teacher
+{
+    int age;
+    float weight;
+    float height;
+    char sex;
+};
+
+这是一次测试svn diff 中出现中文乱码的问题
+struct people
+{
+    int age;//年龄
+    float height;//身高
+};
